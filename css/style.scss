@@ -151,7 +151,7 @@ header {
         display: flex;
         align-items: center;
         margin-bottom: 32px;
-        img {
+        embed {
             margin-right: 16px;
         }
         p {
@@ -216,6 +216,9 @@ header {
         .first-block {
             position: relative;
             text-align: center;
+            border-radius: 4px;
+            height: 132px;
+            margin-right: 24px;
             .hover-block {
                 position: absolute;
                 padding: 4px 6px;
@@ -582,7 +585,7 @@ footer {
     position: absolute;
     top: 0;
     left: 0;
-            content: 'Less details';
+            content: 'Lisätietoja';
         }
     }
     img {
